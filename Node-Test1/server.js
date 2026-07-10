@@ -17,6 +17,7 @@ const requestListener = function (req, res) {
         .catch(err => {
             res.writeHead(500);
             res.end(err);
+            
             return;
         });
 };
